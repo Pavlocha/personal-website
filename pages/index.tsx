@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 
       <main className="flex w-full flex-1 flex-col items-center justify-center  text-center">
         <h1 className="text-6xl font-bold">
-          Hello ! Moi c'est
+          Hello ! Moi c&apos;est
           <a className="text-red-600" href="/cv.pdf">
             {" "}
             Mehdi
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         <ul className=" items mt-8 flex-col ">
           <li className="mt-3 text-left text-3xl">
             {" "}
-            💡 J'adore donner vie à des{" "}
+            💡 J&apos;adore donner vie à des{" "}
             <span className="font-bold text-red-600">idées</span>
           </li>
           <li className="mt-3 text-left text-3xl">
@@ -38,11 +38,11 @@ const Home: NextPage = () => {
           <li className="mt-3 text-left text-3xl">
             📣 Le tout en{" "}
             <span className="font-bold text-red-600">partageant</span> ce que
-            j'apprends
+            j&apos;apprends
           </li>
         </ul>
         <div className="mt-20  text-4xl font-bold content-center">
-          Si ça te parle n'hésite pas à me  <a className="font-bold text-red-600" href="https://www.linkedin.com/in/himmid-mehdi/">contacter</a>{" "}
+          Si ça te parle n&apos;hésite pas à me  <a className="font-bold text-red-600" href="https://www.linkedin.com/in/himmid-mehdi/">contacter</a>{" "}
         </div>
       </main>
     </div>
