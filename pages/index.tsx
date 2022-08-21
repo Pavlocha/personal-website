@@ -32,14 +32,15 @@ const Home: NextPage = () => {
             <span className="font-bold text-red-600">outils</span> modernes{" "}
           </li>
           <li className="mt-3 text-left text-3xl">
-            🤝 Avec des personnes{" "}
-            <span className="font-bold text-red-600">motivées</span>
-          </li>
-          <li className="mt-3 text-left text-3xl">
             📣 Le tout en{" "}
             <span className="font-bold text-red-600">partageant</span> ce que
             j&apos;apprends
           </li>
+          <li className="mt-3 text-left text-3xl">
+            🤝 Avec des personnes{" "}
+            <span className="font-bold text-red-600">motivées</span>
+          </li>
+          
         </ul>
         <div className="mt-20  text-4xl font-bold content-center">
           Si ça te parle n&apos;hésite pas à me  <a className="font-bold text-red-600" href="https://www.linkedin.com/in/himmid-mehdi/">contacter</a>{" "}
