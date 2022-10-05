@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center  text-center">
-        <h1 className="text-6xl font-bold">
+        <h1 className=" text-6xl font-bold">
           Hello ! Moi c&apos;est
           <a className="text-red-600" href="/cv.pdf">
             {" "}
@@ -40,10 +40,15 @@ const Home: NextPage = () => {
             🤝 Avec des personnes{" "}
             <span className="font-bold text-red-600">motivées</span>
           </li>
-          
         </ul>
-        <div className="mt-20  text-4xl font-bold content-center">
-          Si ça te parle n&apos;hésite pas à me  <a className="font-bold text-red-600" href="https://www.linkedin.com/in/himmid-mehdi/">contacter</a>{" "}
+        <div className="mt-20 content-center text-4xl font-bold">
+          Si ça te parle n&apos;hésite pas à me{" "}
+          <a
+            className="font-bold text-red-600"
+            href="https://www.linkedin.com/in/himmid-mehdi/"
+          >
+            contacter
+          </a>{" "}
         </div>
       </main>
     </div>
